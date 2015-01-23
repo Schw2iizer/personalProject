@@ -2,6 +2,8 @@
 <html>
 
 <head> 
+<link rel="stylesheet" href="1140.css">
+<link rel="stylesheet" href="custom.css">
 <link rel="stylesheet" href="styles.css">
 
 	<title> Jeff Telford </title>
@@ -9,6 +11,54 @@
 
 <body>
 
+<header class="headerContainer"> This is my website 
+
+<div id="bg">
+	<div class="container12">
+		<ul id="scene">
+			<li class="layer" data-depth="0.00"><img src="images/mario.png"></li>
+			<li class="layer" data-depth="0.40"><img src="images/large-icons.png"></li>
+			<li class="layer" data-depth="0.80"><img src="images/smallicons.png"></li>
+
+		</ul>
+	</div>
+</div>
+
+<!-- 
+	<div class ="Social"> <a href="http://www.facebook.com/jefftelford">  <img src="http://3.bp.blogspot.com/_rKG-ziTSNUQ/TPU-1GULXRI/AAAAAAAACX4/qVP8Mfw7Uvk/s1600/facebook+like+icon+blogs.png"</a> </div>
+	</div>
+ -->
+
+<!-- Scripts -->
+  <script src="js/deploy/parallax.min.js"></script>
+  <script>
+
+  // Elements
+  var scene = document.getElementById('scene');
+  // var clipCheckbox = document.getElementById('clip');
+  // var relativeCheckbox = document.getElementById('relative');
+
+  // Pretty simple huh?
+  var parallax = new Parallax(scene);
+  //   relativeInput: relativeCheckbox.checked,
+  //   clipRelativeInput: clipCheckbox.checked
+  // });
+
+  // relativeCheckbox.addEventListener('change', function(event) {
+  //   parallax.relativeInput = relativeCheckbox.checked;
+  // });
+
+  // clipCheckbox.addEventListener('change', function(event) {
+  //   parallax.clipRelativeInput = clipCheckbox.checked;
+  // });
+
+  </script>
+
+
+ </body>
+
+
+</header>
 
 
 
