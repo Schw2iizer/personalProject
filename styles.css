@@ -9,18 +9,19 @@ html, body {
 	height: 100px;
 	width: 100%;
 	color: black;
+	font-size: 25px;
 /*	background-color: #E8E2D1;*/
 	text-align: center;
 
 }
 
-.Social {
+/*.Social {
 	height: 10px;
-	float: right;
+	float: right;*/
 }
 
 #bg {
-	background: #000 url(/images/untitled-1.jpg) no-repeat top center;
-	height: 500px;
+/*	background: #000 url(images/background.jpg) no-repeat top center;
+*/	height: 500px;
 	margin: 50px;
 }
